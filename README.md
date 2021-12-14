@@ -6,4 +6,6 @@ Then, it is run-length encoded to convert frames into sequences of like pixels; 
 
 ## Running
 In order to get the video, run the command (provided you have Python and pip installed, or youtube-dl) in `get_video.sh`; subsequently, extracting the frames is as simple as running `extract_frames.sh`. The frames are then extracted into the frames directory, from where you can run the Python file:
-`python to_string.py`.
+`python to_string.py`. Note that, to run the frame extractor, you will need to have `ffmpeg` installed.
+
+If you just wish to use the data obtained from this method, then feel free to just download the `data.txt` file. :)
